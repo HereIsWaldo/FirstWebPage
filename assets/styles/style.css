@@ -1,0 +1,36 @@
+/* selector{propiedad:valor} */
+
+/* Selector universal */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selector de elemento */
+
+header {
+    background-color: #654321;
+}
+body {  
+    background-color: #eee;
+}
+
+/* Selector de ID */
+#uno{
+    width: 50%;
+    border-bottom: 5px solid cornflowerblue;
+    margin-bottom: 15px;
+}
+
+/*Selectores de clase*/
+.titulo{
+    font-size: 150%;
+    font-weight: bold;
+}
+
+/* Agrupacion */
+.titulo, p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
